@@ -16,7 +16,6 @@ import {
   Home,
 } from "lucide-react";
 
-// ---- dados de apoio (portos reais da imagem de referência) ----
 const PORTOS = ["Tefé", "Coari", "Parintins", "Manaus", "Barcelos", "Santa Isabel", "São Gabriel da Cachoeira"];
 
 const TIPOS = [
@@ -62,7 +61,6 @@ const ROTAS = [
 const ETAPAS = ["Abrir", "Pedir", "Opções", "Feito"];
 
 function RioProgresso({ etapa }) {
-  // posições x (%) dos 4 nós ao longo do "rio"
   const nodeX = [8, 37, 66, 92];
   const nodeY = [22, 8, 26, 12];
   const boatX = nodeX[etapa - 1];
