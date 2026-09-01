@@ -1,4 +1,4 @@
-# 🚤 Correios Rios — Protótipo de envio via barco
+# Correios Rios — Protótipo de envio via barco
 
 ![demo](./correios-rios-demo.gif)
 
@@ -8,13 +8,13 @@ Protótipo funcional (React + Vite) de uma nova experiência de envio de encomen
 
 ---
 
-## 💡 Sobre o projeto
+## Sobre o projeto
 
-Este projeto nasceu de um desafio de **vibecoding** (desenvolvimento assistido por IA) proposto por um instrutor: sair da ideia ao protótipo funcional, versionado e publicado, em **2 dias** (25 e 26/08/2026).
+A ideia original do **LogAmazonia** — repensar o envio de encomendas via barco em regiões ribeirinhas da Amazônia, onde não existe malha rodoviária e o rio *é* a estrada — nasceu de um grupo de estudantes do Senai, que levou a proposta a um instrutor da instituição em busca de ajuda para tirá-la do papel.
 
-A proposta: repensar como funcionaria o envio de encomendas via barco em regiões ribeirinhas da Amazônia, onde não existe a malha rodoviária tradicional dos Correios — o rio *é* a estrada.
+O instrutor organizou um desafio entre **3 duplas**, que competiram entre si para criar o melhor protótipo para a ideia delas, com **vibecoding** (desenvolvimento assistido por IA), do zero ao deploy, em **2 dias** (25 e 26/08/2026).
 
-Em vez de tentar construir um app completo, o foco foi validar **um fluxo de ponta a ponta**, bem executado, simulando como a IA poderia apoiar a decisão de rota considerando nível dos rios, clima e tráfego fluvial.
+Este repositório é o protótipo que desenvolvi nessa competição. Em vez de tentar construir um app completo, o foco foi validar **um fluxo de ponta a ponta**, bem executado, simulando como a IA poderia apoiar a decisão de rota considerando nível dos rios, clima e tráfego fluvial.
 
 ### Fluxo implementado
 
@@ -30,7 +30,7 @@ Todas as telas seguem um indicador de progresso fixo no topo (Abrir → Pedir �
 
 ---
 
-## 🖥️ Rodando localmente
+## Rodando localmente
 
 Pré-requisitos: **Node.js 18+** instalado.
 
@@ -50,7 +50,7 @@ npm run preview
 
 ---
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 src/
@@ -61,7 +61,7 @@ index.html
 
 ---
 
-## 🛠️ Stack
+## Stack
 
 - React 18
 - Vite
@@ -69,7 +69,7 @@ index.html
 
 ---
 
-## 🧭 Escopo e próximos passos
+## Escopo e próximos passos
 
 Este é um protótipo de **fluxo único**, não um app completo — decisão consciente para validar a ideia rapidamente dentro do prazo do desafio. Ideias para evolução futura:
 
@@ -80,6 +80,6 @@ Este é um protótipo de **fluxo único**, não um app completo — decisão con
 
 ---
 
-## 🎓 Contexto
+## Contexto
 
-Projeto desenvolvido como parte de um desafio de vibecoding proposto por um instrutor, com apoio de IA em todas as etapas — do protótipo de interface ao versionamento e deploy.
+Projeto desenvolvido em uma competição de vibecoding entre 3 duplas, proposta por um instrutor do Senai a partir da ideia original de um grupo de estudantes (o LogAmazonia), com apoio de IA em todas as etapas — do protótipo de interface ao versionamento e deploy.
